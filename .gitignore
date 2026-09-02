@@ -1,0 +1,30 @@
+# Python bytecode and tooling
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# PyInstaller output (generated locally)
+build/
+dist/
+*.spec
+
+# Application-local data and logs
+BloqueadorConexiones/
+*.log
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
